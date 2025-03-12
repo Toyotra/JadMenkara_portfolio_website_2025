@@ -49,6 +49,7 @@ function App() {
         </div>
         <br></br>
         <h2 class="text-center text-[20px] font-semibold">Hey my name is Jad! I play guitar and build robots. (I'm gr11 pookie :3 😘)</h2>
+        <h2 class="text-center text-[20px] font-semibold">ZOOM TO 100% FOR BEST EXPERIENCE</h2>
         <h3 class="text-center text-[15px] font-semibold">Currently I'm interning with UCalgary on NeuroArm, one of the leading surgical robotics projects in the world.</h3>
         <br></br>
         <h3 class="text-center text-[14px] font-semibold">Founded the non-profit robotics program BotBuilders for teaching middle school students robotics!</h3>
