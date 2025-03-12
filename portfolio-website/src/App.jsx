@@ -20,7 +20,7 @@ import MatrixRainingLetters from "./assets/matrixRainingLetters";
 import "tailwindcss";
 
 import CircleOfImages from  "./assets/imageCircle";
-import BackgroundMusic from  "./assets/musicPlayer";
+import BackgroundMusic from  "./assets/musicPlayer.jsx";
 
 function App() {
   const [count, setCount] = useState(0)
@@ -38,7 +38,7 @@ function App() {
           muted
           playsInline 
           className="background-video"
-          src="portfolio-background-vid.mp4">
+          src="video.mp4">
         </video>
         <div class="h-[50px]"></div>
         <div className="flex justify-center">
