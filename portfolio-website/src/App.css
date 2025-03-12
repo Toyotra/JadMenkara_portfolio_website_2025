@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+.app-container{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+
+}
+.background1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+.background-video{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -5;
+  opacity:10%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+#hoverQuote{
+  flex-basis: 100%;
+    font-weight:400;
+    font-size:15px;
+    overflow-y:hidden;
+    display: block;
+    word-break: break-word;
+    max-height: 100%;  
+}
+#coverDiv{
+  height:0px;
+  transition:2s;
+  width:700px;
+  text-align:center;
+}
+
+
+.idkwtfimdoing{
+  margin:5px;
+}
+
+.idkwtfimdoing:hover{
+  color:white
+}
+
+
+.cringe{
+  width:fit-content;
+  height:auto;
+  background-color: rgba(240, 248, 255, 0);
+  text-decoration: underline;
+}
+
+.cringe:hover{
+  font-size:18px;
+  color:blue;
+}
+ 
+.wtfAmIDoing{
+  width:fit-content;
+  height:auto;
+  background-color: rgba(240, 248, 255, 0);
+  text-decoration: underline;
+}
+.wtfAmIDoing:hover{
+  font-size:18px;
+  color:blue;
+}
