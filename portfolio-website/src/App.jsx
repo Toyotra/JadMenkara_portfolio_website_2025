@@ -58,7 +58,7 @@ function App() {
         <div class="flex justify-center" ><a href = "https://drive.google.com/file/d/1ea5rBp5rmJb2boLAf04WL4MPYJQtXy_g/view?usp=sharing" className = "wtfAmIDoing" target="_blank" rel="noopener noreferrer">Resume</a></div>
         <br></br>
         <h4 class="text-center text-[12px] font-semibold">(I'm cracked 💀 trust bro)</h4>
-        <BackgroundMusic wtf={true}></BackgroundMusic>
+        <BackgroundMusic></BackgroundMusic>
         <div class="h-5"></div>
         <div class="flex justify-center mb-2" >
           <div id="TheyAreSoCooked">

@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import React from "react";
 
-export default function BackgroundMusic({wtf}) {
+export default function BackgroundMusic() {
   const audioRef = useRef(null);
 
 
@@ -44,7 +44,7 @@ export default function BackgroundMusic({wtf}) {
   }, []);
 
   console.log(currentSong);
-    return (
+  return (
         <div class="w-full">
             <audio ref={audioRef} loop src={"Music/"+currentSong} type="audio/mpeg">
             </audio>
@@ -60,5 +60,5 @@ export default function BackgroundMusic({wtf}) {
         </div>
         
         
-    );
+  );
 }
