@@ -93,9 +93,9 @@ function App() {
         
         <CircleOfImages imageListIndex="0"></CircleOfImages>
         <div class="h-[200px]"></div>
-        <h3 class="text-center text-[15px] font-semibold">Please date me 😭😭😭. I'm lonely and have been rejected too many times. I will be a W boyfriend I promise queen 😭 Yo srsly if any abg wants me PLEASE HIT ME UP😭😭💀💀💀💀</h3>
+        <h3 class="text-center text-[15px] font-semibold">I am a f*ing weeb bro</h3>
         <br></br>
-        <h3 class="text-center text-[15px] font-semibold">If interested in dating, please hit me up on my socials!</h3>
+        <h3 class="text-center text-[15px] font-semibold">If interested in dating (winning ht6) or collaborating, feel free to reach out to me with my socials!</h3>
         <div class="flex justify-center">
           <a href = "https://www.linkedin.com/in/jad-menkara-1593942aa/" className="idkwtfimdoing"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href = "https://www.instagram.com/jadm_._/" className="idkwtfimdoing"><FontAwesomeIcon icon={faInstagram} /></a>
