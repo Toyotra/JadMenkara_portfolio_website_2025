@@ -28,7 +28,7 @@
 #hoverQuote{
   flex-basis: 100%;
     font-weight:400;
-    font-size:15px;
+    font-size:1.4vh;
     overflow-y:hidden;
     display: block;
     word-break: break-word;
@@ -44,6 +44,7 @@
 
 .idkwtfimdoing{
   margin:5px;
+  font-size:1.4vh;
 }
 
 .idkwtfimdoing:hover{
@@ -56,10 +57,11 @@
   height:auto;
   background-color: rgba(240, 248, 255, 0);
   text-decoration: underline;
+  font-size:1.2vh;
 }
 
 .cringe:hover{
-  font-size:18px;
+  font-size:1.4vh;
   color:blue;
 }
  

@@ -30,7 +30,7 @@
   }
   
   .circle-image img {
-    height:130px;
+    height:10vh;
     object-fit: cover; /* Ensures aspect ratio is maintained */
     image-rendering: crisp-edges;
   }
