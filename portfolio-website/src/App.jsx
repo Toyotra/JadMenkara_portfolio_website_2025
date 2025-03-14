@@ -51,7 +51,7 @@ function App() {
 
         </div>
         <div class = "h-[1vh]"></div>
-        <h2 class="text-center text-[1.8vh] font-semibold">Hey my name is Jad! I play guitar and build robots. (I'm gr11 pookie :3 😘)</h2>
+        <h2 class="text-center text-[1.8vh] font-semibold">Hey my name is Jad! I play guitar and build robots.</h2>
         <h3 class="text-center text-[1.4vh] font-semibold">Currently I'm interning with UCalgary on NeuroArm, one of the leading surgical robotics projects in the world.</h3>
         <br></br>
         <h3 class="text-center text-[1.3vh] font-semibold">Founded the non-profit robotics program BotBuilders for teaching middle school students robotics!</h3>
@@ -95,8 +95,6 @@ function App() {
         
         <CircleOfImages imageListIndex="0"></CircleOfImages>
         <div class="h-[15vh]"></div>
-        <h3 class="text-center text-[15px] font-semibold">bruh this whole website going int the garbage bin</h3>
-        <br></br>
         <h3 class="text-center text-[15px] font-semibold">If interested in dating (winning ht6) or collaborating, feel free to reach out to me with my socials!</h3>
         <div class="flex justify-center">
           <a href = "https://www.linkedin.com/in/jad-menkara-1593942aa/" className="idkwtfimdoing"><FontAwesomeIcon icon={faLinkedin} /></a>
