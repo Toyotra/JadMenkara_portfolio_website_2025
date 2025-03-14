@@ -95,7 +95,7 @@ function App() {
         
         <CircleOfImages imageListIndex="0"></CircleOfImages>
         <div class="h-[15vh]"></div>
-        <h3 class="text-center text-[15px] font-semibold">I am a f*ing weeb bro</h3>
+        <h3 class="text-center text-[15px] font-semibold">bruh this whole website going int the garbage bin</h3>
         <br></br>
         <h3 class="text-center text-[15px] font-semibold">If interested in dating (winning ht6) or collaborating, feel free to reach out to me with my socials!</h3>
         <div class="flex justify-center">
