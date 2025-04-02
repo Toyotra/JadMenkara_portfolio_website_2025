@@ -40,7 +40,7 @@ function App() {
           muted
           playsInline 
           className="background-video"
-          src="video.mp4">
+          src="video_.mp4">
         </video>
         <div class="h-[50px]"></div>
         <div className="flex justify-center">
@@ -51,10 +51,10 @@ function App() {
 
         </div>
         <div class = "h-[1vh]"></div>
-        <h2 class="text-center text-[1.8vh] font-semibold">Hey my name is Jad! I play guitar and build robots.</h2>
+        <h2 class="text-center text-[1.8vh] font-semibold">Hey my name is Jad! I play guitar and build robots. Grade 11 Student @ Vincent Massey Secondary School</h2>
         <h3 class="text-center text-[1.4vh] font-semibold">Currently I'm interning with UCalgary on NeuroArm, one of the leading surgical robotics projects in the world.</h3>
         <br></br>
-        <h3 class="text-center text-[1.3vh] font-semibold">Founded the non-profit robotics program BotBuilders for teaching middle school students robotics!</h3>
+        <h3 class="text-center text-[1.3vh] font-semibold">Founded the non-profit robotics program <a target = "_blank" className = "cringe"  href="https://botbuildersrobotics.ca">BotBuilders</a> for teaching middle school students robotics!</h3>
         <br></br>
         <h3 class="text-center text-[13px] font-semibold">Massey Hack Club President!</h3>
         <div class="h-[0.8vh]"></div>
@@ -95,7 +95,7 @@ function App() {
         
         <CircleOfImages imageListIndex="0"></CircleOfImages>
         <div class="h-[15vh]"></div>
-        <h3 class="text-center text-[15px] font-semibold">If interested in dating or collaborating, feel free to reach out to me with my socials!</h3>
+        <h3 class="text-center text-[15px] font-semibold">If interested in collaborating, feel free to reach out to me with my socials!</h3>
         <div class="flex justify-center">
           <a href = "https://www.linkedin.com/in/jad-menkara-1593942aa/" className="idkwtfimdoing"><FontAwesomeIcon icon={faLinkedin} /></a>
           <a href = "https://www.instagram.com/jadm_._/" className="idkwtfimdoing"><FontAwesomeIcon icon={faInstagram} /></a>
