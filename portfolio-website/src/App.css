@@ -28,7 +28,7 @@
 #hoverQuote{
   flex-basis: 100%;
     font-weight:400;
-    font-size:1.4vh;
+    font-size:clamp(12px, 1.4vw, 14px);
     overflow-y:hidden;
     display: block;
     word-break: break-word;
@@ -74,4 +74,43 @@
 .wtfAmIDoing:hover{
   font-size:18px;
   color:blue;
+}
+
+.outOfNames{
+  height: 15vh;
+  border: 4px solid black;
+  transition: all 1.5s;
+}
+
+.outOfNames:hover {
+  height: 19vh;
+}
+
+
+
+
+
+
+.newclass1 {
+  text-align: center;
+  font-size: clamp(12px, 3vw, 18px);
+  font-weight: 600; 
+}
+
+.newclass2 {
+  text-align: center;
+  font-size: clamp(10px, 2.5vw, 14px);
+  font-weight: 600;
+}
+
+.newclass3 {
+  text-align: center;
+  font-size: clamp(8px, 2vw, 13px);
+  font-weight: 600; 
+}
+
+.newclass4 {
+  text-align: center;
+  font-size: 13px;
+  font-weight: 600;
 }

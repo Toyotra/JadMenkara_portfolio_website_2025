@@ -51,12 +51,12 @@ function App() {
 
         </div>
         <div class = "h-[1vh]"></div>
-        <h2 class="text-center text-[1.8vh] font-semibold">Hey my name is Jad! I play guitar and build robots. Grade 11 Student @ Vincent Massey Secondary School</h2>
-        <h3 class="text-center text-[1.4vh] font-semibold">Currently I'm interning with UCalgary on NeuroArm, one of the leading surgical robotics projects in the world.</h3>
-        <br></br>
-        <h3 class="text-center text-[1.3vh] font-semibold">Founded the non-profit robotics program <a target = "_blank" className = "cringe"  href="https://botbuildersrobotics.ca">BotBuilders</a> for teaching middle school students robotics!</h3>
-        <br></br>
-        <h3 class="text-center text-[13px] font-semibold">Massey Hack Club President!</h3>
+        <h2 className="newclass1">Hey my name is Jad! I play guitar and build robots. Grade 11 Student @ Vincent Massey Secondary School</h2>
+        <h3 className="newclass2">Currently I'm interning with UCalgary on NeuroArm, one of the leading surgical robotics projects in the world.</h3>
+        <br />
+        <h3 className="newclass3">Founded the non-profit robotics program <a target="_blank" className="cringe" href="https://botbuildersrobotics.ca">BotBuilders</a> for teaching middle school students robotics!</h3>
+        <br />
+        <h3 className="newclass4">Massey Hack Club President!</h3>
         <div class="h-[0.8vh]"></div>
         <div class="flex justify-center" ><a href = "https://drive.google.com/file/d/1ea5rBp5rmJb2boLAf04WL4MPYJQtXy_g/view?usp=sharing" className = "wtfAmIDoing" target="_blank" rel="noopener noreferrer">Resume</a></div>
         <div class="h-[0.8vh]"></div>
@@ -68,22 +68,25 @@ function App() {
             <div class="flex justify-center">
               <img 
               src = "images/imcooked.jpg" 
-              class="h-[15vh] border-4 border-black hover:h-[19vh] transition-all duration-1500"
+              className="outOfNames"
               onMouseEnter={() => setIsHovered(true)}
               onMouseLeave={() => setIsHovered(false)}>
 
               </img>
             </div>
+            <div class="flex justify-center">
             <div id="coverDiv" style={{
-                  width: '40vw',
+                  width: 'clamp(400px, 40vw, 700px)',
                   textalign: 'center',
                   height: isHovered ? '24vh':'0px',
                   transition: 'height 1.5s'
                 }}>
 
               <div class="h-3"></div>
-            <p class="text-center text-[13px] font-semibold  mb-5" id="hoverQuote">"Everything that you thought had meaning: every hope, dream, or moment of happiness. None of it matters as you lie bleeding out on the battlefield. None of it changes what a speeding rock does to a body, we all die. But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless?... They were not! Their memory serves as an example to us all! The courageous fallen! The anguished fallen! Their lives have meaning because we the living refuse to forget them! And as we ride to certain death, we trust our successors to do the same for us! Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAAAAAGE!" - Erwin Smith</p>
+            <p id="hoverQuote">"Everything that you thought had meaning: every hope, dream, or moment of happiness. None of it matters as you lie bleeding out on the battlefield. None of it changes what a speeding rock does to a body, we all die. But does that mean our lives are meaningless? Does that mean that there was no point in our being born? Would you say that of our slain comrades? What about their lives? Were they meaningless?... They were not! Their memory serves as an example to us all! The courageous fallen! The anguished fallen! Their lives have meaning because we the living refuse to forget them! And as we ride to certain death, we trust our successors to do the same for us! Because my soldiers do not buckle or yield when faced with the cruelty of this world! My soldiers push forward! My soldiers scream out! My soldiers RAAAAAGE!" - Erwin Smith</p>
             </div>
+            </div>
+           
             
           </div>
           
